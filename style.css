@@ -1,0 +1,55 @@
+.parent{
+    display: flex;
+    justify-content: center; /*l'axe x*/
+    align-items: end;   /*l'axe y*/
+    border: 2px solid red;
+    height: 300px;
+    width: 800px;
+}
+/* positions
+    absolute
+    static
+    relative
+    sticky
+    fixed */
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box-1{
+    background-color: black;
+}
+.box-2{
+    background-color: green;
+}
+.box-3{
+    background-color: blue;
+}
+
+.container{ 
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    position: relative;
+    margin-bottom: 100rem;
+} 
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    position: absolute;
+    right: 10%;
+    /* right ,left, bottom, top; */
+
+}
+.fixed{
+    position: fixed;
+    background-color: green;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: brown;
+}
